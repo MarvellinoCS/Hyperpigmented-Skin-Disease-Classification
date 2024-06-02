@@ -1,0 +1,4 @@
+Tensorflow==2.7
+scikit-learn==1.0
+matplotlib==3.5.2
+numpy==1.21.6
