@@ -1,4 +1,4 @@
-#**Hyperpigmented Skin Disease Classification Using Deep Learning Algorithms**
+# **Hyperpigmented Skin Disease Classification Using Deep Learning Algorithms**
 
 ## Introduction
 There are growing numbers of significant skin disorders, including skin pigmentation. It states that skin color is determined by the amount of melanin produced by the body. The two main categories of skin pigmentation including:
