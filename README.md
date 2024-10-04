@@ -1,1 +1,42 @@
-There are growing numbers of significant skin disorders, including skin pigmentation. It states that skin color is determined by the amount of melanin produced by the body. The two main categories of skin pigmentation are hyperpigmentation, in which pigment seems to overflow, and hypopigmentation, in which pigment appears to decrease. However, many skin conditions share characteristics, making it difficult for dermatologists to correctly diagnose their patients. Consequently, the accurate early detection of skin disorders and the diagnosis of dermatoscopy pictures can be greatly aided by machine learning and deep learning approaches. The most effective deep learning technique for picture identification was investigated in order to diagnose hyperpigmented skin diseases. YOLO, DesseNet201, GoogLeNet, InceptionResNetV2, and MobileNet were among the pretrained models used to classify four common hyperpigmented skin disorders. Using assessment metrics like accuracy and AUC (Area Under Curve). It was determined which deep learning method would work best for creating a clinical diagnostic system. The study analyzed the accuracy rates of five pretrained models, including GoogleNet, MobileNet, DenseNet201, InceptionResNetV2, and YOLO, after 50 iterations. The training set had 93.8%, 100%, 100%, 98.77%, and 97.43% accuracy rates, while the test set data had 87.18%, 79.49%, 87.18%, 89.74%, and 97.56% accuracy rates. The DenseNet201 classifier was the top performer, working well on CS, MN, and ML, but poorly on CN. The DenseNet201 traditional CNN method performed better at identifying objects with greater accuracy and important generalization capability with limited dataset. The confusion matrices for four classification tasks and five classical CNNs were also shown, with the YOLO model being selected for detecting hyperpigmentation disease due to the confusion matrix. This study assessed various deep learning algorithms for classifying hyperpigmented skin conditions, identifying DenseNet201 as the top model due to its highest accuracy and AUC values. While these models show promise as diagnostic tools for dermatologists, further research, including expanding the dataset and exploring hybrid models, is needed to enhance their clinical accuracy and effectiveness.
+#**Hyperpigmented Skin Disease Classification Using Deep Learning Algorithms**
+
+## Introduction
+There are growing numbers of significant skin disorders, including skin pigmentation. It states that skin color is determined by the amount of melanin produced by the body. The two main categories of skin pigmentation including:
+- Hyperpigmentation, in which pigment seems to overflow.
+- Hypopigmentation, in which pigment appears to decrease.
+
+However, many skin conditions share characteristics, making it difficult for dermatologists to correctly diagnose their patients. Consequently, the accurate early detection of skin disorders and the diagnosis of dermatoscopy pictures can be greatly aided by machine learning and deep learning approaches.
+
+## Objective
+To find the most effective deep learning technique for picture identification was investigated in order to diagnose hyperpigmented skin diseases.
+
+## Deep Learning Models
+The following pretrained deep learning models were evaluated:
+- YOLO (You Only Look Once)
+- DenseNet201
+- GoogLeNet
+- InceptionResNetV2
+- MobileNet
+
+## Results
+Summarize the accuracy rates and performance of each model:
+
+| Model                | Training Accuracy | Test Accuracy  |AUC Score|
+|----------------------|-------------------|----------------|----------------|
+| YOLO                 | 97.43%            | 97.56%         | 0.97           |
+| DenseNet201           | 100%              | 87.18%         |0.99           |
+| GoogLeNet            | 93.8%             | 87.18%         |0.90          |
+| InceptionResNetV2    | 98.77%            | 89.74%         |0.94           |
+| MobileNet            | 100%              | 79.49%         |0.98           |
+
+### Best Performing Model
+- **DenseNet201** achieved the highest accuracy and AUC values, making it the top-performing model. However, **YOLO** was also highlighted for its performance based on confusion matrix analysis.
+
+## Conclusion
+Briefly state the findings of the project. DenseNet201 was the most effective model, but more research is needed to enhance its clinical applications. Discuss any limitations or challenges faced during the study.
+
+## Future Work
+Outline the steps for improving the model:
+- **Dataset Expansion**: Mention the importance of using a larger dataset for better model generalization.
+- **Hybrid Models**: Discuss the potential of exploring hybrid models to further improve accuracy.
+- **Clinical Testing**: Highlight the importance of testing these models in real-world clinical settings.
