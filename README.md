@@ -19,7 +19,7 @@ The following pretrained deep learning models were evaluated:
 - MobileNet
 
 ## Results
-Summarize the accuracy rates and performance of each model:
+The summary of each model training and testing accuracy rates and AUC Score of each model:
 
 | Model                | Training Accuracy | Test Accuracy  |AUC Score|
 |----------------------|-------------------|----------------|----------------|
@@ -33,7 +33,7 @@ Summarize the accuracy rates and performance of each model:
 - **DenseNet201** achieved the highest accuracy and AUC values, making it the top-performing model. However, **YOLO** was also highlighted for its performance based on confusion matrix analysis.
 
 ## Conclusion
-Briefly state the findings of the project. DenseNet201 was the most effective model, but more research is needed to enhance its clinical applications. Discuss any limitations or challenges faced during the study.
+Briefly state the findings of the project. DenseNet201 was the most effective model, but Yolo has the most stable outcome performance, however more research is needed to enhance its clinical applications.
 
 ## Future Work
 Outline the steps for improving the model:
